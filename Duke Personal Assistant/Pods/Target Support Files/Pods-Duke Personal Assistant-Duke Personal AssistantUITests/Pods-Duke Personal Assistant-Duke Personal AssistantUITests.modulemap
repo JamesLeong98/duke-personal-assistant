@@ -1,0 +1,6 @@
+framework module Pods_Duke_Personal_Assistant_Duke_Personal_AssistantUITests {
+  umbrella header "Pods-Duke Personal Assistant-Duke Personal AssistantUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

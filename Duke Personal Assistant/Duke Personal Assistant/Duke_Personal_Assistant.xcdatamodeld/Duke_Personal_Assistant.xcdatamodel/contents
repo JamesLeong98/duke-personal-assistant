@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="ofCourse" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Courses" inverseName="courseCategory" inverseEntity="Courses"/>
+    </entity>
+    <entity name="Courses" representedClassName="Courses" syncable="YES" codeGenerationType="class">
+        <attribute name="catalogNumber" optional="YES" attributeType="String"/>
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="courseId" optional="YES" attributeType="String"/>
+        <attribute name="courseName" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="meetingPattern" optional="YES" attributeType="String" customClassName="Array&lt;Any&gt;"/>
+        <attribute name="meetingTime" optional="YES" attributeType="String"/>
+        <attribute name="offerNumber" optional="YES" attributeType="String"/>
+        <attribute name="sectionType" optional="YES" attributeType="String"/>
+        <attribute name="subject" optional="YES" attributeType="String"/>
+        <relationship name="courseCategory" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Category" inverseName="ofCourse" inverseEntity="Category"/>
+        <relationship name="courseEvents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Events" inverseName="ofCourse" inverseEntity="Events"/>
+    </entity>
+    <entity name="Events" representedClassName="Events" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="end" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="start" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="ofCourse" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Courses" inverseName="courseEvents" inverseEntity="Courses"/>
+    </entity>
+    <entity name="Todos" representedClassName="Todos" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="course" optional="YES" attributeType="String"/>
+        <attribute name="deadline" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Courses" positionX="-63" positionY="27" width="128" height="223"/>
+        <element name="Events" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Todos" positionX="-63" positionY="9" width="128" height="118"/>
+        <element name="Category" positionX="-54" positionY="99" width="128" height="88"/>
+    </elements>
+</model>

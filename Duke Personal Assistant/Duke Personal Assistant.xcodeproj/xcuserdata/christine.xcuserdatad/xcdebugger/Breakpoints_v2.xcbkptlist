@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "928EAB51-98BE-4E81-9C31-47F522493D43"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3077D4CD-4AFD-4AF6-B028-F6C79A7EF098"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Duke Personal Assistant/entryToDoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "entryToDoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3077D4CD-4AFD-4AF6-B028-F6C79A7EF098 - 780c9c6997d6526f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Duke_Personal_Assistant.entryToDoViewController.sectionField.getter : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "Duke Personal Assistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christine/Desktop/newyork/Duke%20Personal%20Assistant/Duke%20Personal%20Assistant/entryToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "3077D4CD-4AFD-4AF6-B028-F6C79A7EF098 - b0b8c1faa0e9563"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Duke_Personal_Assistant.entryToDoViewController.sectionField.setter : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "Duke Personal Assistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christine/Desktop/newyork/Duke%20Personal%20Assistant/Duke%20Personal%20Assistant/entryToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "3077D4CD-4AFD-4AF6-B028-F6C79A7EF098 - f28723c07603735a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Duke_Personal_Assistant.entryToDoViewController.sectionField.modify : Swift.Optional&lt;__C.UIPickerView&gt;"
+                  moduleName = "Duke Personal Assistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christine/Desktop/newyork/Duke%20Personal%20Assistant/Duke%20Personal%20Assistant/entryToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "3077D4CD-4AFD-4AF6-B028-F6C79A7EF098 - c362c4a96a435a59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Duke_Personal_Assistant.entryToDoViewController.sectionField.modify : Swift.Optional&lt;__C.UIPickerView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Duke Personal Assistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christine/Desktop/newyork/Duke%20Personal%20Assistant/Duke%20Personal%20Assistant/entryToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "3077D4CD-4AFD-4AF6-B028-F6C79A7EF098 - 4b9db397d24e19fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Duke_Personal_Assistant.entryToDoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Duke_Personal_Assistant.entryToDoViewController"
+                  moduleName = "Duke Personal Assistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christine/Desktop/newyork/Duke%20Personal%20Assistant/Duke%20Personal%20Assistant/entryToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "587">
+               </Location>
+               <Location
+                  uuid = "3077D4CD-4AFD-4AF6-B028-F6C79A7EF098 - 9b12b1dcc9bfd44a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Duke_Personal_Assistant.entryToDoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Duke_Personal_Assistant.entryToDoViewController&gt;"
+                  moduleName = "Duke Personal Assistant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christine/Desktop/newyork/Duke%20Personal%20Assistant/Duke%20Personal%20Assistant/entryToDoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "542">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

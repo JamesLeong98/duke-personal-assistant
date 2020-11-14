@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175DBFACE550711EDB1CAA0C /* Pods_Duke_Personal_Assistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D315ABB5C78B2A3050FF891D /* Pods_Duke_Personal_Assistant.framework */; };
+		5AFAC489B105A12EA1C11F03 /* Pods_Duke_Personal_Assistant_Duke_Personal_AssistantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC52D93D7BF79720EB0935E7 /* Pods_Duke_Personal_Assistant_Duke_Personal_AssistantUITests.framework */; };
+		926D7968DCC575F9B8402E5E /* Pods_Duke_Personal_AssistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C5325DA28E74CC23AF079A /* Pods_Duke_Personal_AssistantTests.framework */; };
+		B03F535F254ACD2100B80537 /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F535E254ACD2100B80537 /* calendarViewController.swift */; };
+		B03F5374254AFB9300B80537 /* calendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F5373254AFB9200B80537 /* calendarTableViewCell.swift */; };
+		B03F5379254B129C00B80537 /* newEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F5378254B129C00B80537 /* newEventViewController.swift */; };
+		B0818E222551A6E400388AAC /* eventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0818E212551A6E400388AAC /* eventDetailViewController.swift */; };
+		B0875D49255A4A7600676021 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0875D48255A4A7600676021 /* homeViewController.swift */; };
+		CB0954982549C55400167A09 /* entryToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0954972549C55400167A09 /* entryToDoViewController.swift */; };
+		CB09549D2549C56500167A09 /* detailToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB09549C2549C56500167A09 /* detailToDoViewController.swift */; };
+		CB0954A22549C58100167A09 /* listToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0954A12549C58100167A09 /* listToDoTableViewController.swift */; };
+		E413E4FB2549175300914747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413E4FA2549175300914747 /* AppDelegate.swift */; };
+		E413E4FD2549175300914747 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413E4FC2549175300914747 /* SceneDelegate.swift */; };
+		E413E4FF2549175300914747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413E4FE2549175300914747 /* ViewController.swift */; };
+		E413E5022549175300914747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E413E5002549175300914747 /* Main.storyboard */; };
+		E413E5052549175300914747 /* Duke_Personal_Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E413E5032549175300914747 /* Duke_Personal_Assistant.xcdatamodeld */; };
+		E413E5072549175500914747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E413E5062549175500914747 /* Assets.xcassets */; };
+		E413E50A2549175500914747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E413E5082549175500914747 /* LaunchScreen.storyboard */; };
+		E413E5152549175600914747 /* Duke_Personal_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413E5142549175600914747 /* Duke_Personal_AssistantTests.swift */; };
+		E413E5202549175600914747 /* Duke_Personal_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413E51F2549175600914747 /* Duke_Personal_AssistantUITests.swift */; };
+		E47714CA2554B2F4004B470F /* coursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47714C92554B2F4004B470F /* coursesTableViewCell.swift */; };
+		E4B64D6E254B506400A87C0D /* coursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B64D6D254B506400A87C0D /* coursesTableViewController.swift */; };
+		E4B64D76254B5BAB00A87C0D /* addCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B64D75254B5BAB00A87C0D /* addCourseViewController.swift */; };
+		E4B64D7B254B5F8400A87C0D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B64D7A254B5F8400A87C0D /* Constants.swift */; };
+		E4B64D8B254B633200A87C0D /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B64D8A254B633200A87C0D /* iOSDropDown.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E413E5112549175600914747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E413E4EF2549175300914747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E413E4F62549175300914747;
+			remoteInfo = "Duke Personal Assistant";
+		};
+		E413E51C2549175600914747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E413E4EF2549175300914747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E413E4F62549175300914747;
+			remoteInfo = "Duke Personal Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27E5ACB8AA2C523357507570 /* Pods-Duke Personal Assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duke Personal Assistant.debug.xcconfig"; path = "Target Support Files/Pods-Duke Personal Assistant/Pods-Duke Personal Assistant.debug.xcconfig"; sourceTree = "<group>"; };
+		4E148CA0DED546B9DD25D70D /* Pods-Duke Personal Assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duke Personal Assistant.release.xcconfig"; path = "Target Support Files/Pods-Duke Personal Assistant/Pods-Duke Personal Assistant.release.xcconfig"; sourceTree = "<group>"; };
+		5B53AC3CA86AFCAACF33EDF1 /* Pods-Duke Personal AssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duke Personal AssistantTests.release.xcconfig"; path = "Target Support Files/Pods-Duke Personal AssistantTests/Pods-Duke Personal AssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		66C5325DA28E74CC23AF079A /* Pods_Duke_Personal_AssistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Duke_Personal_AssistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F312502AF487CE2168A409 /* Pods-Duke Personal Assistant-Duke Personal AssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duke Personal Assistant-Duke Personal AssistantUITests.release.xcconfig"; path = "Target Support Files/Pods-Duke Personal Assistant-Duke Personal AssistantUITests/Pods-Duke Personal Assistant-Duke Personal AssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B03F535E254ACD2100B80537 /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		B03F5373254AFB9200B80537 /* calendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarTableViewCell.swift; sourceTree = "<group>"; };
+		B03F5378254B129C00B80537 /* newEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newEventViewController.swift; sourceTree = "<group>"; };
+		B0818E212551A6E400388AAC /* eventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventDetailViewController.swift; sourceTree = "<group>"; };
+		B0875D48255A4A7600676021 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		B18A44709B647A5315187E81 /* Pods-Duke Personal Assistant-Duke Personal AssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duke Personal Assistant-Duke Personal AssistantUITests.debug.xcconfig"; path = "Target Support Files/Pods-Duke Personal Assistant-Duke Personal AssistantUITests/Pods-Duke Personal Assistant-Duke Personal AssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C399B846EDEE12526285E430 /* Pods-Duke Personal AssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duke Personal AssistantTests.debug.xcconfig"; path = "Target Support Files/Pods-Duke Personal AssistantTests/Pods-Duke Personal AssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB0954972549C55400167A09 /* entryToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entryToDoViewController.swift; sourceTree = "<group>"; };
+		CB09549C2549C56500167A09 /* detailToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailToDoViewController.swift; sourceTree = "<group>"; };
+		CB0954A12549C58100167A09 /* listToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listToDoTableViewController.swift; sourceTree = "<group>"; };
+		D315ABB5C78B2A3050FF891D /* Pods_Duke_Personal_Assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Duke_Personal_Assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E413E4F72549175300914747 /* Duke Personal Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duke Personal Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E413E4FA2549175300914747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E413E4FC2549175300914747 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E413E4FE2549175300914747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E413E5012549175300914747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E413E5042549175300914747 /* Duke_Personal_Assistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Duke_Personal_Assistant.xcdatamodel; sourceTree = "<group>"; };
+		E413E5062549175500914747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E413E5092549175500914747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E413E50B2549175500914747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E413E5102549175600914747 /* Duke Personal AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duke Personal AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E413E5142549175600914747 /* Duke_Personal_AssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duke_Personal_AssistantTests.swift; sourceTree = "<group>"; };
+		E413E5162549175600914747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E413E51B2549175600914747 /* Duke Personal AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duke Personal AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E413E51F2549175600914747 /* Duke_Personal_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duke_Personal_AssistantUITests.swift; sourceTree = "<group>"; };
+		E413E5212549175600914747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47714C92554B2F4004B470F /* coursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesTableViewCell.swift; sourceTree = "<group>"; };
+		E4B64D6D254B506400A87C0D /* coursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesTableViewController.swift; sourceTree = "<group>"; };
+		E4B64D75254B5BAB00A87C0D /* addCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCourseViewController.swift; sourceTree = "<group>"; };
+		E4B64D7A254B5F8400A87C0D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E4B64D8A254B633200A87C0D /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC52D93D7BF79720EB0935E7 /* Pods_Duke_Personal_Assistant_Duke_Personal_AssistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Duke_Personal_Assistant_Duke_Personal_AssistantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E413E4F42549175300914747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B64D8B254B633200A87C0D /* iOSDropDown.framework in Frameworks */,
+				175DBFACE550711EDB1CAA0C /* Pods_Duke_Personal_Assistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E413E50D2549175600914747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926D7968DCC575F9B8402E5E /* Pods_Duke_Personal_AssistantTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E413E5182549175600914747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFAC489B105A12EA1C11F03 /* Pods_Duke_Personal_Assistant_Duke_Personal_AssistantUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197FA33D08529CC1F9EAF2C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B64D8A254B633200A87C0D /* iOSDropDown.framework */,
+				D315ABB5C78B2A3050FF891D /* Pods_Duke_Personal_Assistant.framework */,
+				FC52D93D7BF79720EB0935E7 /* Pods_Duke_Personal_Assistant_Duke_Personal_AssistantUITests.framework */,
+				66C5325DA28E74CC23AF079A /* Pods_Duke_Personal_AssistantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C7338FB0091E2F01DF3913F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27E5ACB8AA2C523357507570 /* Pods-Duke Personal Assistant.debug.xcconfig */,
+				4E148CA0DED546B9DD25D70D /* Pods-Duke Personal Assistant.release.xcconfig */,
+				B18A44709B647A5315187E81 /* Pods-Duke Personal Assistant-Duke Personal AssistantUITests.debug.xcconfig */,
+				99F312502AF487CE2168A409 /* Pods-Duke Personal Assistant-Duke Personal AssistantUITests.release.xcconfig */,
+				C399B846EDEE12526285E430 /* Pods-Duke Personal AssistantTests.debug.xcconfig */,
+				5B53AC3CA86AFCAACF33EDF1 /* Pods-Duke Personal AssistantTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E413E4EE2549175300914747 = {
+			isa = PBXGroup;
+			children = (
+				E413E4F92549175300914747 /* Duke Personal Assistant */,
+				E413E5132549175600914747 /* Duke Personal AssistantTests */,
+				E413E51E2549175600914747 /* Duke Personal AssistantUITests */,
+				E413E4F82549175300914747 /* Products */,
+				9C7338FB0091E2F01DF3913F /* Pods */,
+				197FA33D08529CC1F9EAF2C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E413E4F82549175300914747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E413E4F72549175300914747 /* Duke Personal Assistant.app */,
+				E413E5102549175600914747 /* Duke Personal AssistantTests.xctest */,
+				E413E51B2549175600914747 /* Duke Personal AssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E413E4F92549175300914747 /* Duke Personal Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				E413E4FA2549175300914747 /* AppDelegate.swift */,
+				E413E4FC2549175300914747 /* SceneDelegate.swift */,
+				E413E4FE2549175300914747 /* ViewController.swift */,
+				E4B64D7A254B5F8400A87C0D /* Constants.swift */,
+				E413E5002549175300914747 /* Main.storyboard */,
+				B0875D48255A4A7600676021 /* homeViewController.swift */,
+				B0818E212551A6E400388AAC /* eventDetailViewController.swift */,
+				B03F5378254B129C00B80537 /* newEventViewController.swift */,
+				B03F535E254ACD2100B80537 /* calendarViewController.swift */,
+				B03F5373254AFB9200B80537 /* calendarTableViewCell.swift */,
+				CB0954972549C55400167A09 /* entryToDoViewController.swift */,
+				CB09549C2549C56500167A09 /* detailToDoViewController.swift */,
+				CB0954A12549C58100167A09 /* listToDoTableViewController.swift */,
+				E4B64D6D254B506400A87C0D /* coursesTableViewController.swift */,
+				E4B64D75254B5BAB00A87C0D /* addCourseViewController.swift */,
+				E47714C92554B2F4004B470F /* coursesTableViewCell.swift */,
+				E413E5062549175500914747 /* Assets.xcassets */,
+				E413E5082549175500914747 /* LaunchScreen.storyboard */,
+				E413E50B2549175500914747 /* Info.plist */,
+				E413E5032549175300914747 /* Duke_Personal_Assistant.xcdatamodeld */,
+			);
+			path = "Duke Personal Assistant";
+			sourceTree = "<group>";
+		};
+		E413E5132549175600914747 /* Duke Personal AssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				E413E5142549175600914747 /* Duke_Personal_AssistantTests.swift */,
+				E413E5162549175600914747 /* Info.plist */,
+			);
+			path = "Duke Personal AssistantTests";
+			sourceTree = "<group>";
+		};
+		E413E51E2549175600914747 /* Duke Personal AssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E413E51F2549175600914747 /* Duke_Personal_AssistantUITests.swift */,
+				E413E5212549175600914747 /* Info.plist */,
+			);
+			path = "Duke Personal AssistantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E413E4F62549175300914747 /* Duke Personal Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E413E5242549175600914747 /* Build configuration list for PBXNativeTarget "Duke Personal Assistant" */;
+			buildPhases = (
+				9DDBCE4E095B98B8397A97DA /* [CP] Check Pods Manifest.lock */,
+				E413E4F32549175300914747 /* Sources */,
+				E413E4F42549175300914747 /* Frameworks */,
+				E413E4F52549175300914747 /* Resources */,
+				C3A3581C12DAD2CF54A7BC13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duke Personal Assistant";
+			productName = "Duke Personal Assistant";
+			productReference = E413E4F72549175300914747 /* Duke Personal Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E413E50F2549175600914747 /* Duke Personal AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E413E5272549175600914747 /* Build configuration list for PBXNativeTarget "Duke Personal AssistantTests" */;
+			buildPhases = (
+				95144E39CFB4A595D231CDDD /* [CP] Check Pods Manifest.lock */,
+				E413E50C2549175600914747 /* Sources */,
+				E413E50D2549175600914747 /* Frameworks */,
+				E413E50E2549175600914747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E413E5122549175600914747 /* PBXTargetDependency */,
+			);
+			name = "Duke Personal AssistantTests";
+			productName = "Duke Personal AssistantTests";
+			productReference = E413E5102549175600914747 /* Duke Personal AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E413E51A2549175600914747 /* Duke Personal AssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E413E52A2549175600914747 /* Build configuration list for PBXNativeTarget "Duke Personal AssistantUITests" */;
+			buildPhases = (
+				2512A14CCC8B448C06257907 /* [CP] Check Pods Manifest.lock */,
+				E413E5172549175600914747 /* Sources */,
+				E413E5182549175600914747 /* Frameworks */,
+				E413E5192549175600914747 /* Resources */,
+				4A4B92B195E555BD6E3D1F4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E413E51D2549175600914747 /* PBXTargetDependency */,
+			);
+			name = "Duke Personal AssistantUITests";
+			productName = "Duke Personal AssistantUITests";
+			productReference = E413E51B2549175600914747 /* Duke Personal AssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E413E4EF2549175300914747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E413E4F62549175300914747 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E413E50F2549175600914747 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E413E4F62549175300914747;
+					};
+					E413E51A2549175600914747 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E413E4F62549175300914747;
+					};
+				};
+			};
+			buildConfigurationList = E413E4F22549175300914747 /* Build configuration list for PBXProject "Duke Personal Assistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E413E4EE2549175300914747;
+			productRefGroup = E413E4F82549175300914747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E413E4F62549175300914747 /* Duke Personal Assistant */,
+				E413E50F2549175600914747 /* Duke Personal AssistantTests */,
+				E413E51A2549175600914747 /* Duke Personal AssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E413E4F52549175300914747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E413E50A2549175500914747 /* LaunchScreen.storyboard in Resources */,
+				E413E5072549175500914747 /* Assets.xcassets in Resources */,
+				E413E5022549175300914747 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E413E50E2549175600914747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E413E5192549175600914747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2512A14CCC8B448C06257907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Duke Personal Assistant-Duke Personal AssistantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4B92B195E555BD6E3D1F4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Duke Personal Assistant-Duke Personal AssistantUITests/Pods-Duke Personal Assistant-Duke Personal AssistantUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Duke Personal Assistant-Duke Personal AssistantUITests/Pods-Duke Personal Assistant-Duke Personal AssistantUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Duke Personal Assistant-Duke Personal AssistantUITests/Pods-Duke Personal Assistant-Duke Personal AssistantUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95144E39CFB4A595D231CDDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Duke Personal AssistantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDBCE4E095B98B8397A97DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Duke Personal Assistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A3581C12DAD2CF54A7BC13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Duke Personal Assistant/Pods-Duke Personal Assistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Duke Personal Assistant/Pods-Duke Personal Assistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Duke Personal Assistant/Pods-Duke Personal Assistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E413E4F32549175300914747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03F5379254B129C00B80537 /* newEventViewController.swift in Sources */,
+				B03F535F254ACD2100B80537 /* calendarViewController.swift in Sources */,
+				E413E4FF2549175300914747 /* ViewController.swift in Sources */,
+				B03F5374254AFB9300B80537 /* calendarTableViewCell.swift in Sources */,
+				CB0954A22549C58100167A09 /* listToDoTableViewController.swift in Sources */,
+				E413E5052549175300914747 /* Duke_Personal_Assistant.xcdatamodeld in Sources */,
+				E413E4FB2549175300914747 /* AppDelegate.swift in Sources */,
+				E4B64D7B254B5F8400A87C0D /* Constants.swift in Sources */,
+				B0818E222551A6E400388AAC /* eventDetailViewController.swift in Sources */,
+				CB09549D2549C56500167A09 /* detailToDoViewController.swift in Sources */,
+				E4B64D6E254B506400A87C0D /* coursesTableViewController.swift in Sources */,
+				B0875D49255A4A7600676021 /* homeViewController.swift in Sources */,
+				E4B64D76254B5BAB00A87C0D /* addCourseViewController.swift in Sources */,
+				CB0954982549C55400167A09 /* entryToDoViewController.swift in Sources */,
+				E47714CA2554B2F4004B470F /* coursesTableViewCell.swift in Sources */,
+				E413E4FD2549175300914747 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E413E50C2549175600914747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E413E5152549175600914747 /* Duke_Personal_AssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E413E5172549175600914747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E413E5202549175600914747 /* Duke_Personal_AssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E413E5122549175600914747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E413E4F62549175300914747 /* Duke Personal Assistant */;
+			targetProxy = E413E5112549175600914747 /* PBXContainerItemProxy */;
+		};
+		E413E51D2549175600914747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E413E4F62549175300914747 /* Duke Personal Assistant */;
+			targetProxy = E413E51C2549175600914747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E413E5002549175300914747 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E413E5012549175300914747 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E413E5082549175500914747 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E413E5092549175500914747 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E413E5222549175600914747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E413E5232549175600914747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E413E5252549175600914747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E5ACB8AA2C523357507570 /* Pods-Duke Personal Assistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QKD4WM49G;
+				INFOPLIST_FILE = "Duke Personal Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.Duke-Personal-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E413E5262549175600914747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E148CA0DED546B9DD25D70D /* Pods-Duke Personal Assistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QKD4WM49G;
+				INFOPLIST_FILE = "Duke Personal Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.Duke-Personal-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E413E5282549175600914747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C399B846EDEE12526285E430 /* Pods-Duke Personal AssistantTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QKD4WM49G;
+				INFOPLIST_FILE = "Duke Personal AssistantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.Duke-Personal-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duke Personal Assistant.app/Duke Personal Assistant";
+			};
+			name = Debug;
+		};
+		E413E5292549175600914747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B53AC3CA86AFCAACF33EDF1 /* Pods-Duke Personal AssistantTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QKD4WM49G;
+				INFOPLIST_FILE = "Duke Personal AssistantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.Duke-Personal-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duke Personal Assistant.app/Duke Personal Assistant";
+			};
+			name = Release;
+		};
+		E413E52B2549175600914747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18A44709B647A5315187E81 /* Pods-Duke Personal Assistant-Duke Personal AssistantUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QKD4WM49G;
+				INFOPLIST_FILE = "Duke Personal AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.Duke-Personal-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Duke Personal Assistant";
+			};
+			name = Debug;
+		};
+		E413E52C2549175600914747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F312502AF487CE2168A409 /* Pods-Duke Personal Assistant-Duke Personal AssistantUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QKD4WM49G;
+				INFOPLIST_FILE = "Duke Personal AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.Duke-Personal-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Duke Personal Assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E413E4F22549175300914747 /* Build configuration list for PBXProject "Duke Personal Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E413E5222549175600914747 /* Debug */,
+				E413E5232549175600914747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E413E5242549175600914747 /* Build configuration list for PBXNativeTarget "Duke Personal Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E413E5252549175600914747 /* Debug */,
+				E413E5262549175600914747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E413E5272549175600914747 /* Build configuration list for PBXNativeTarget "Duke Personal AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E413E5282549175600914747 /* Debug */,
+				E413E5292549175600914747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E413E52A2549175600914747 /* Build configuration list for PBXNativeTarget "Duke Personal AssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E413E52B2549175600914747 /* Debug */,
+				E413E52C2549175600914747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E413E5032549175300914747 /* Duke_Personal_Assistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E413E5042549175300914747 /* Duke_Personal_Assistant.xcdatamodel */,
+			);
+			currentVersion = E413E5042549175300914747 /* Duke_Personal_Assistant.xcdatamodel */;
+			path = Duke_Personal_Assistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E413E4EF2549175300914747 /* Project object */;
+}
